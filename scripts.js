@@ -1,3 +1,4 @@
-const a = 5;
-const b = 7;
-console.log(a+b,a*b);
+const first = 'John';
+const second = 'Smith';
+const totalLength = first.length + second.length;
+console.log(totalLength);
