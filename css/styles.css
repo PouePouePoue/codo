@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  #wrapper {
+    margin: 0 auto;
+    width: 1000px;
+  }
+  #header {
+    background: #2277aa;
+    height: 500px;
+  }
+
+  #content {
+    margin-top: 100px;
+    width: 200px;
+    float: left;
+    margin-left: 300px;
+    padding: 10px;
+    background: #c02b2b;
+  }
+  #left {
+    margin-top: 100px;
+    float: left;
+    width: 250px;
+    margin-left: -500px;
+    padding: 10px;
+    background: #ddd;
+  }
+  #right {
+    margin-top: 100px;
+    margin-right: 90px;
+    float: right;
+    width: 200px;
+    padding: 10px;
+    background: #ccc;
+  }
+  #bg-left-right {
+    background: url(bg-left.png) left top repeat-y, url(bg-right.png) right top repeat-y;
+    overflow: hidden;
+  }
+  #footer {
+    clear: both;
+    height: 50px;
+    background: #2277aa;
+  }
